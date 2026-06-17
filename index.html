@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Alexandre Tagud — Developer</title>
+    <meta name="description" content="Ben Alexandre Tagud — developer building web apps and bots.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrap">
+            <div class="logo">Cod<span>er</span></div>
+            <div class="navlinks">
+                <a href="#about" class="active">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a class="hire" href="#contact">Hire Me</a>
+            <button class="menubtn" aria-label="menu"
+                onclick="document.querySelector('.navlinks').style.display=(getComputedStyle(document.querySelector('.navlinks')).display==='none'?'flex':'none')">&#9776;</button>
+        </div>
+    </nav>
+
+    <!-- ===== hero ===== -->
+    <header class="hero">
+        <div class="wrap hero-grid">
+            <div>
+                <span class="tagbubble reveal">Hello, I am</span>
+                <h1 class="reveal">Ben Alexandre <span class="coral">Tagud</span></h1>
+                <p class="sub reveal">A developer building practical web apps and conversational bots &mdash; from
+                    API-driven interfaces to full-stack team systems. <!-- EDIT: tweak this tagline. --></p>
+                <div class="hero-cta reveal">
+                    <!-- EDIT: real CV link -->
+                    <a class="btn btn-c" href="resume.pdf" target="_blank" rel="noopener">Download CV</a>
+                    <a class="btn" href="#portfolio">My Work</a>
+                </div>
+            </div>
+            <div class="portrait reveal">
+                <div class="mono-mark">ben</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== stats ===== -->
+    <div class="wrap">
+        <div class="stats reveal">
+            <!-- EDIT: update these numbers to be true for you -->
+            <div class="stat">
+                <div class="n">4+</div>
+                <div class="l">Projects</div>
+            </div>
+            <div class="stat hot">
+                <div class="n">2</div>
+                <div class="l">Forks Contributed</div>
+            </div>
+            <div class="stat">
+                <div class="n">3+</div>
+                <div class="l">Languages</div>
+            </div>
+            <div class="stat">
+                <div class="n">1</div>
+                <div class="l">Team Major Project</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== about + skills ===== -->
+    <section id="about" class="sec">
+        <div class="wrap about-grid">
+            <div class="about-visual reveal">
+                <div class="code">const dev = {
+                    name: "Ben",
+                    builds: ["web", "bots"],
+                    stack: ["JS", "Node",
+                    "Laravel", "Java"],
+                    status: "learning++"
+                    };</div>
+                <div class="badge">
+                    <div class="n">CS</div>
+                    <div class="t">Student &amp; Builder</div>
+                </div>
+            </div>
+            <div class="about-copy reveal">
+                <h3>A bit about <span class="coral">my work</span> and how I build.</h3>
+                <!-- EDIT: rewrite this in your own voice -->
+                <p>I like turning ideas into things that actually run &mdash; an interactive Pokédex, a chat bot, or a
+                    full team rental-management system. I enjoy the part where it finally works end to end, and I'm
+                    always picking up new tools along the way.</p>
+                <!-- EDIT: tweak titles, descriptions, and tags to match what you do -->
+                <div class="focus-grid">
+                    <div class="focus-card">
+                        <div class="focus-ic">&lt;/&gt;</div>
+                        <div class="focus-t">Web Apps</div>
+                        <p>Full-stack apps with Node, Express &amp; Laravel.</p>
+                    </div>
+                    <div class="focus-card">
+                        <div class="focus-ic">&#129302;</div>
+                        <div class="focus-t">Chat Bots</div>
+                        <p>Conversational bots and automated responses in JS.</p>
+                    </div>
+                    <div class="focus-card">
+                        <div class="focus-ic">&#128101;</div>
+                        <div class="focus-t">Team Projects</div>
+                        <p>Building real systems with a team, end to end.</p>
+                    </div>
+                </div>
+                <div class="about-cta">
+                    <a class="btn btn-c" href="#contact">Hire Me</a>
+                    <a class="btn" href="#portfolio">See Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== services ===== -->
+    <section id="services" class="sec">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="sec-kicker">What I Do</div>
+                <h2 class="sec-title">Services</h2>
+                <p class="sec-sub">The kinds of things I can build and help with.</p>
+            </div>
+            <div class="svc-grid reveal">
+                <!-- EDIT: adjust services to match what you offer -->
+                <div class="svc">
+                    <div class="svc-ic">&lt;/&gt;</div>
+                    <div class="svc-t">Web Development</div><span class="arr">&rarr;</span>
+                </div>
+                <div class="svc">
+                    <div class="svc-ic">&#9883;</div>
+                    <div class="svc-t">JavaScript Apps</div><span class="arr">&rarr;</span>
+                </div>
+                <div class="svc">
+                    <div class="svc-ic">&#129302;</div>
+                    <div class="svc-t">Chat Bots</div><span class="arr">&rarr;</span>
+                </div>
+                <div class="svc">
+                    <div class="svc-ic">&#9636;</div>
+                    <div class="svc-t">Laravel Backends</div><span class="arr">&rarr;</span>
+                </div>
+                <div class="svc">
+                    <div class="svc-ic">&#8644;</div>
+                    <div class="svc-t">REST APIs</div><span class="arr">&rarr;</span>
+                </div>
+                <div class="svc">
+                    <div class="svc-ic">&#9881;</div>
+                    <div class="svc-t">Problem Solving</div><span class="arr">&rarr;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== portfolio ===== -->
+    <section id="portfolio" class="sec">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="sec-kicker">My Recent Work</div>
+                <h2 class="sec-title">Portfolio</h2>
+                <p class="sec-sub">Projects I've built and shared on GitHub.</p>
+            </div>
+            <div class="port-grid reveal">
+                <div class="pcard">
+                    <div class="top t1">&#9924;</div>
+                    <div class="body">
+                        <h3>Pokédex</h3>
+                        <p>An interactive Pokédex web app built with Node and Express, rendering Pokémon data through
+                            EJS templates.</p>
+                        <div class="chips"><span class="chip">Node.js</span><span class="chip">Express</span><span
+                                class="chip">EJS</span></div>
+                        <a class="repo" href="https://github.com/alexandretzy/POKEDEX" target="_blank"
+                            rel="noopener">Repository &rarr;</a>
+                    </div>
+                </div>
+                <div class="pcard">
+                    <div class="top t2">&#129302;</div>
+                    <div class="body">
+                        <h3>Talent Hatch Chat Bot</h3>
+                        <p>A JavaScript chat bot handling conversational interactions and automated responses.</p>
+                        <div class="chips"><span class="chip">JavaScript</span><span class="chip">Chatbot</span><span
+                                class="chip">Node.js</span></div>
+                        <a class="repo" href="https://github.com/alexandretzy/Talent-Hach-Chat-Bot" target="_blank"
+                            rel="noopener">Repository &rarr;</a>
+                    </div>
+                </div>
+                <div class="pcard">
+                    <div class="top t3">&#127970;</div>
+                    <div class="body">
+                        <h3>Citiescapes <span class="fork-pill">&#11489; fork</span></h3>
+                        <div class="forked-from">forked from <a href="https://github.com/Yuutzu/citiescapes-laravel"
+                                target="_blank" rel="noopener">Yuutzu/citiescapes-laravel</a></div>
+                        <p>A four-person CS12L major project: a Laravel 11 + Livewire apartment rental system with
+                            billing, leases, tenants, and notifications.</p>
+                        <div class="chips"><span class="chip">Laravel</span><span class="chip">Livewire</span><span
+                                class="chip">Tailwind</span><span class="chip">MySQL</span></div>
+                        <a class="repo" href="https://github.com/alexandretzy/citiescapes-laravel" target="_blank"
+                            rel="noopener">Repository &rarr;</a>
+                    </div>
+                </div>
+                <div class="pcard">
+                    <div class="top t4">&#8369;</div>
+                    <div class="body">
+                        <h3>EPMS Payroll <span class="fork-pill">&#11489; fork</span></h3>
+                        <div class="forked-from">forked from <a href="https://github.com/Yuutzu/epms-java"
+                                target="_blank" rel="noopener">Yuutzu/epms-java</a></div>
+                        <p>A Java Swing desktop payroll app with deductions, overtime, bonuses, and PDF payslips on an
+                            embedded SQLite database.</p>
+                        <div class="chips"><span class="chip">Java Swing</span><span class="chip">SQLite</span><span
+                                class="chip">iText</span><span class="chip">Maven</span></div>
+                        <a class="repo" href="https://github.com/alexandretzy/epms-java" target="_blank"
+                            rel="noopener">Repository &rarr;</a>
+                    </div>
+                </div>
+                <!-- EDIT: copy a .pcard block to add more. Top classes: t1 t2 t3 t4 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== contact ===== -->
+    <section id="contact" class="sec">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="sec-kicker">Get In Touch</div>
+                <h2 class="sec-title">Contact</h2>
+                <p class="sec-sub">I'm available for work &amp; collaborations. Reach me through any of these.</p>
+            </div>
+            <div class="contact-grid reveal">
+                <!-- EDIT: replace the href and the displayed text with your real details -->
+                <a class="contact-card" href="tel:+63XXXXXXXXXX">
+                    <div class="contact-ic">&#9742;</div>
+                    <div class="contact-meta">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-val">+63 XXX XXX XXXX</span>
+                    </div>
+                </a>
+                <a class="contact-card" href="mailto:your.email@example.com">
+                    <div class="contact-ic">&#9993;</div>
+                    <div class="contact-meta">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-val">your.email@example.com</span>
+                    </div>
+                </a>
+                <a class="contact-card" href="https://github.com/alexandretzy" target="_blank" rel="noopener">
+                    <div class="contact-ic">&#9874;</div>
+                    <div class="contact-meta">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-val">github.com/alexandretzy</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">&copy; 2026 Ben Alexandre Tagud &middot; Built with HTML &amp; CSS &middot; <a
+                href="https://github.com/alexandretzy" target="_blank" rel="noopener"
+                style="color:var(--coral)">GitHub</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
