@@ -469,52 +469,6 @@ nav .wrap {
     max-width: 54ch
 }
 
-.focus-grid {
-    display: grid;
-    gap: 14px
-}
-
-.focus-card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 18px 20px;
-    transition: all .16s
-}
-
-.focus-card:hover {
-    border-color: var(--coral);
-    transform: translateY(-3px)
-}
-
-.focus-ic {
-    font-family: var(--mono);
-    font-size: 1.15rem;
-    color: var(--coral);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg-2);
-    border-radius: 10px;
-    margin-bottom: 12px
-}
-
-.focus-t {
-    font-family: var(--disp);
-    font-weight: 700;
-    font-size: 1.02rem;
-    margin-bottom: 4px
-}
-
-.focus-card p {
-    color: var(--text-soft);
-    font-size: .88rem;
-    margin: 0;
-    max-width: none
-}
-
 .about-cta {
     display: flex;
     gap: 13px;
